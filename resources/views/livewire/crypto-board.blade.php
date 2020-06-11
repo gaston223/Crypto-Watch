@@ -1,4 +1,4 @@
-<div wire:poll.1s>
+<div>
    <h2>Cours des Cryptomonnaies :</h2>
 
     <div class="row border border-dark rounded">
@@ -23,9 +23,11 @@
             <h4>{{$ltc}}
                 €</h4>
         </div>
-    </div>
 
+    </div>
+    <div>
+        <button class="btn btn-primary mt-5" wire:click="$refresh">↻ Cliquez pour rafraichir</button>
+    </div>
     <div style="font-style: italic" class="float-left mt-5 h6">* BTC = Bitcoin, ETH = Ethereum, LTC = Litecoin
-    <p></p>
     </div>
 </div>
