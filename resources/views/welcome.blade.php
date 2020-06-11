@@ -64,19 +64,23 @@
             }
         </style>
 
+        <link rel="stylesheet" href="https://bootswatch.com/4/materia/bootstrap.css">
+
         @livewireStyles
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+        <div class=" flex-center position-ref full-height">
 
 
             <div class="content">
                 <div class="title m-b-md">
-                    Bienvenue sur CryptoGaze
+                    Bienvenue sur Crypto - Watch
                 </div>
 
+                @livewire("crypto-board")
 
             </div>
+
         </div>
 
         @livewireScripts
