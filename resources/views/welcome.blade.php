@@ -77,10 +77,14 @@
                     Bienvenue sur Crypto - Watch
                 </div>
 
+                <h2>Consulter le cours de vos cryptomonnaies en temps réel !</h2>
+
                 <div class="h5 mt-5 mb-5">
                     <p class="">Cette application a été concu avec le framework <strong>Laravel</strong>  sans aucune ligne de <strong>javascript</strong>,  ni <strong>ajax</strong>  grâce à la librairie <strong>Livewire</strong></p>
-                    <p><a target="_blank" href="https://laravel-livewire.com/">Le lien de la doc</a></p>
-                    <p><a target="_blank" href="https://github.com/gaston223/Crypto-Watch">Le lien du repo Github </a></p>
+                    <p><a target="_blank" href="https://laravel-livewire.com/">Lien de la doc Livewire</a></p>
+                    <p><a target="_blank" href="https://github.com/gaston223/Crypto-Watch">Lien du repo Github du projet </a></p>
+                    <p><a target="_blank" href="https://min-api.cryptocompare.com/documentation">Lien de l'API Crypto Compare </a></p>
+
                 </div>
 
 
