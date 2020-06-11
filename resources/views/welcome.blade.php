@@ -77,11 +77,23 @@
                     Bienvenue sur Crypto - Watch
                 </div>
 
+                <div class="h5 mt-5 mb-5">
+                    <p class="">Cette application a été concu avec le framework <strong>Laravel</strong>  sans aucune ligne de <strong>javascript</strong>,  ni <strong>ajax</strong>  grâce à la librairie <strong>Livewire</strong></p>
+                    <p><a target="_blank" href="https://laravel-livewire.com/">Le lien de la doc</a></p>
+                    <p><a target="_blank" href="https://github.com/gaston223/Crypto-Watch">Le lien du repo Github </a></p>
+                </div>
+
+
+
+
                 @livewire("crypto-board")
 
             </div>
 
         </div>
+<footer class="footer flex-center h5 mb-5">
+   Application conçu par&nbsp;<a href="https://gaoussou-coulibaly.fr/">Gaoussou Coulibaly</a>
+</footer>
 
         @livewireScripts
     </body>
